@@ -1,0 +1,32 @@
+{
+  "name": "abanamro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "nodemon": "nodemon start",
+    "migrate": "./node_modules/.bin/migrate",
+    "migrate-init": "./node_modules/.bin/migrate-init",
+    "migrate-list": "./node_modules/.bin/migrate-list",
+    "migrate-create": "./node_modules/.bin/migrate-create",
+    "migrate-up": "./node_modules/.bin/migrate-up",
+    "migrate-down": "./node_modules/.bin/migrate-down",
+    "test": "jest"
+  },
+  "dependencies": {
+    "consolidate": "^0.16.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "jest": "^26.5.0",
+    "migrate": "^1.7.0",
+    "morgan": "~1.9.1",
+    "mustache": "^4.0.1",
+    "neo4j": "^2.0.0-RC2",
+    "neode": "^0.4.6",
+    "node-sass-middleware": "0.11.0",
+    "npm-watch": "^0.7.0",
+    "optional": "^0.1.4",
+    "supertest": "^5.0.0"
+  }
+}
