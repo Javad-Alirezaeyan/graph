@@ -5,10 +5,9 @@ This a simple project using node.js showing a tree
 
 <h3>Introduction</h3>
 You can see the online version here:
-<a href="" target="_blank">click here</a>
 
 <h4> Points</h4>
-The structure of the application is based on MVC. First, the client sends a request, it checks in routes files(one for 
+The structure of the application is based on the MVC structure. First, the client sends a request, it checks in routes files(one for 
 web and another for api ) and after that send
 to controllers. Controllers make connections with the database by models. We have an abstract model that each model must be extended from that. Models make and run
 the query on the database with a Querybuilder(this class has been designed with Builder design pattern) that creates Cypher commands interacting with the database.
@@ -72,7 +71,7 @@ To install without docker, you must have been installed the following:
 1. Clone the source code from github repository. To do that open terminal and type the following command:
 
 
-     git clone https://github.com/Javad-Alirezaeyan/graph.git
+        git clone https://github.com/Javad-Alirezaeyan/graph.git
 
 
 2. Then, open the  orderProduct directory with command:
